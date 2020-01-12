@@ -5,7 +5,8 @@
 
 	let locationGeneral = [
 		{path: '', name: '홈', isSelect: true},
-		{path: 'stats' , name: '캐릭터 스테이터스', isSelect: false}
+		{path: 'stats', name: '캐릭터 스테이터스', isSelect: false},
+		{path: 'role', name: '롤', isSelect:false}
 	]
 </script>
 
