@@ -35,9 +35,9 @@
   }
 </style>
 
-<main>
-  <div class="tile is-parent">
-    <article class="tile is-child notification is-primary">
+<div>
+  <div class="tile is-parents">
+    <div class="tile is-child notification is-primary">
       <p class="title">General Stats</p>
       <p class="subtitle">일반적인 스탯에 대해서 설명합니다.</p>
       <div class="contianer">
@@ -60,11 +60,11 @@
           </tbody>
         </table>
       </div>
-    </article>
+    </div>
   </div>
 
   <div class="tile is-parent">
-    <article class="tile is-child notification is-danger">
+    <div class="tile is-child notification is-danger">
       <p class="title">Physical Stats</p>
       <p class="subtitle">물리 공격과 관련된 스탯에 대해서 설명합니다.</p>
       <div class="container">
@@ -87,11 +87,11 @@
           </tbody>
         </table>
       </div>
-    </article>
+    </div>
   </div>
 
   <div class="tile is-parent">
-    <article class="tile is-child notification is-info">
+    <div class="tile is-child notification is-info">
       <p class="title">Magical Stats</p>
       <p class="subtitle">마법 공격과 관련된 스탯에 대해서 설명합니다.</p>
       <div class="container">
@@ -114,7 +114,7 @@
           </tbody>
         </table>
       </div>
-    </article>
+    </div>
   </div>
 
-</main>
+</div>
