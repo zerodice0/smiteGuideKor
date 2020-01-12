@@ -27,17 +27,21 @@
 
 <style>
   .stats-name {
-    min-width: 200px;
+    min-width: 100px;
   }
 
   .stats-max {
     min-width: 80px;
   }
+
+  .stats-description {
+    min-width: 120px;
+  }
 </style>
 
 <div>
-  <div class="tile is-parents">
-    <div class="tile is-child notification is-primary">
+  <div class="tile is-ancestor">
+    <div class="tile is-parent notification is-primary">
       <p class="title">General Stats</p>
       <p class="subtitle">일반적인 스탯에 대해서 설명합니다.</p>
       <div class="contianer">
@@ -46,7 +50,7 @@
             <tr>
               <th class="stats-name has-text-centered">스탯 명</th>
               <th class="stats-max has-text-centered">최대치</th>
-              <th>설명</th>
+              <th class="stats-description has-text-centered">설명</th>
             </tr>
           </thead>
           <tbody>
@@ -63,8 +67,8 @@
     </div>
   </div>
 
-  <div class="tile is-parent">
-    <div class="tile is-child notification is-danger">
+  <div class="tile is-ancestor">
+    <div class="tile is-parent notification is-danger">
       <p class="title">Physical Stats</p>
       <p class="subtitle">물리 공격과 관련된 스탯에 대해서 설명합니다.</p>
       <div class="container">
@@ -73,7 +77,7 @@
             <tr>
               <th class="stats-name has-text-centered">스탯 명</th>
               <th class="stats-max has-text-centered">최대치</th>
-              <th>설명</th>
+              <th class="stats-description has-text-centered">설명</th>
             </tr>
           </thead>
           <tbody>
@@ -90,8 +94,8 @@
     </div>
   </div>
 
-  <div class="tile is-parent">
-    <div class="tile is-child notification is-info">
+  <div class="tile is-ancestor">
+    <div class="tile is-parent notification is-info">
       <p class="title">Magical Stats</p>
       <p class="subtitle">마법 공격과 관련된 스탯에 대해서 설명합니다.</p>
       <div class="container">
@@ -100,7 +104,7 @@
             <tr>
               <th class="stats-name has-text-centered">스탯 명</th>
               <th class="stats-max has-text-centered">최대치</th>
-              <th>설명</th>
+              <th class="stats-description has-text-centered">설명</th>
             </tr>
           </thead>
           <tbody>

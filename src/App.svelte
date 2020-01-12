@@ -47,8 +47,8 @@
 	main {
 		text-align: center;
 		padding: 1em;
-		max-width: 580px;
-		min-width: 580px;
+		max-width: 600px;
+		min-width: 380px;
 		margin: 0 auto;
 	}
 
