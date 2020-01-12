@@ -27,21 +27,21 @@
 
 <style>
   .stats-name {
-    min-width: 100px;
+    min-width: 60px;
   }
 
   .stats-max {
-    min-width: 80px;
+    min-width: 60px;
   }
 
   .stats-description {
-    min-width: 120px;
+    min-width: 128px;
   }
 </style>
 
-<div>
-  <div class="tile is-ancestor">
-    <div class="tile is-parent notification is-primary">
+<div class="tile is-ancestor is-vertical">
+  <div class="tile is-parent">
+    <div class="tile is-child notification is-primary">
       <p class="title">General Stats</p>
       <p class="subtitle">일반적인 스탯에 대해서 설명합니다.</p>
       <div class="contianer">
@@ -67,8 +67,8 @@
     </div>
   </div>
 
-  <div class="tile is-ancestor">
-    <div class="tile is-parent notification is-danger">
+  <div class="tile is-parent">
+    <div class="tile is-child notification is-danger">
       <p class="title">Physical Stats</p>
       <p class="subtitle">물리 공격과 관련된 스탯에 대해서 설명합니다.</p>
       <div class="container">
@@ -94,8 +94,8 @@
     </div>
   </div>
 
-  <div class="tile is-ancestor">
-    <div class="tile is-parent notification is-info">
+  <div class="tile is-parent">
+    <div class="tile is-child notification is-info">
       <p class="title">Magical Stats</p>
       <p class="subtitle">마법 공격과 관련된 스탯에 대해서 설명합니다.</p>
       <div class="container">
